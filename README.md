@@ -1,6 +1,5 @@
 # ITD62-275_Frontend-TermProject
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<i class="fa fa-youtube-play" style="font-size:48px;color:red"></i> Demo: https://youtu.be/buzSrQo4dlg
+Demo: https://youtu.be/buzSrQo4dlg
 # อธิบายเกี่ยวกับ Term Project
 เป็น term project เกี่ยวกับระบบจองเต็นท์สำหรับพนักงาน โดยพนักงานเป็นคนกรอกข้อมูลต่างๆของนักท่องเที่ยวที่เดินเข้าไปจองเต็นท์กับพนักงาน
 
