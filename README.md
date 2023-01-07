@@ -122,111 +122,97 @@ Data Dictionary เก็บข้อมูลของ Equipment หรือ�
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax">#</th>
+    <th class="tg-0pky">#</th>
     <th class="tg-0pky">Attribute</th>
-    <th class="tg-0lax">Description</th>
-    <th class="tg-0lax">Data Type</th>
-    <th class="tg-0lax">Example</th>
+    <th class="tg-0pky">Description</th>
+    <th class="tg-0pky">Data Type</th>
+    <th class="tg-0pky">Example</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax">1</td>
-    <td class="tg-0lax">id</td>
-    <td class="tg-0lax">id</td>
-    <td class="tg-0lax">int</td>
-    <td class="tg-0lax">1</td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky">hanginglamp</td>
+    <td class="tg-0pky">โคมไฟห้อย</td>
+    <td class="tg-0pky">string</td>
+    <td class="tg-0pky">40</td>
   </tr>
   <tr>
-    <td class="tg-0lax">2</td>
-    <td class="tg-0lax">firstname</td>
-    <td class="tg-0lax">ชื่อจริง</td>
-    <td class="tg-0lax">string</td>
-    <td class="tg-0lax">จิตราพร</td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky">torch</td>
+    <td class="tg-0pky">ไฟฉาย</td>
+    <td class="tg-0pky">string</td>
+    <td class="tg-0pky">20</td>
   </tr>
   <tr>
-    <td class="tg-0lax">3</td>
-    <td class="tg-0lax">lastname</td>
-    <td class="tg-0lax">นามสกุล</td>
-    <td class="tg-0lax">string</td>
-    <td class="tg-0lax">ทองคง</td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky">illumination</td>
+    <td class="tg-0pky">ไฟส่องสว่าง</td>
+    <td class="tg-0pky">string</td>
+    <td class="tg-0pky">80</td>
   </tr>
   <tr>
-    <td class="tg-0lax">4</td>
-    <td class="tg-0lax">phonenumber</td>
-    <td class="tg-0lax">เบอร์โทรศัพท์</td>
-    <td class="tg-0lax">string</td>
-    <td class="tg-0lax">0857743364</td>
+    <td class="tg-0pky">4</td>
+    <td class="tg-0pky">electricity</td>
+    <td class="tg-0pky">ไฟฟ้า</td>
+    <td class="tg-0pky">string</td>
+    <td class="tg-0pky">150</td>
   </tr>
   <tr>
-    <td class="tg-0lax">5</td>
-    <td class="tg-0lax">idcard</td>
-    <td class="tg-0lax">หมายเลขบัตรประชาชน</td>
-    <td class="tg-0lax">string</td>
-    <td class="tg-0lax">1849903647253</td>
+    <td class="tg-0pky">5</td>
+    <td class="tg-0pky">privateBathroom</td>
+    <td class="tg-0pky">ห้องน้ำส่วนตัว</td>
+    <td class="tg-0pky">string</td>
+    <td class="tg-0pky">50</td>
   </tr>
   <tr>
-    <td class="tg-0lax">6</td>
-    <td class="tg-0lax">address</td>
-    <td class="tg-0lax">ที่อยู่</td>
-    <td class="tg-0lax">string</td>
-    <td class="tg-0lax">11/55</td>
+    <td class="tg-0pky">6</td>
+    <td class="tg-0pky">sharedBathroom</td>
+    <td class="tg-0pky">ห้องน้ำรวม</td>
+    <td class="tg-0pky">string</td>
+    <td class="tg-0pky">20</td>
   </tr>
   <tr>
-    <td class="tg-0lax">7</td>
-    <td class="tg-0lax">subdistrict</td>
-    <td class="tg-0lax">ตำบล</td>
-    <td class="tg-0lax">string</td>
-    <td class="tg-0lax">ตลาด</td>
+    <td class="tg-0pky">7</td>
+    <td class="tg-0pky">charCoalGrill</td>
+    <td class="tg-0pky">เตาปิ้งแบบถ่าน</td>
+    <td class="tg-0pky">string</td>
+    <td class="tg-0pky">50</td>
   </tr>
   <tr>
-    <td class="tg-0lax">8</td>
-    <td class="tg-0lax">district</td>
-    <td class="tg-0lax">อำเภอ</td>
-    <td class="tg-0lax">string</td>
-    <td class="tg-0lax">เมืองสุราษฎร์ธานี</td>
+    <td class="tg-0pky">8</td>
+    <td class="tg-0pky">electricToaster</td>
+    <td class="tg-0pky">เตาปิ้งแบบไฟฟ้า</td>
+    <td class="tg-0pky">string</td>
+    <td class="tg-0pky">60</td>
   </tr>
   <tr>
-    <td class="tg-0lax">9</td>
-    <td class="tg-0lax">province</td>
-    <td class="tg-0lax">จังหวัด</td>
-    <td class="tg-0lax">string</td>
-    <td class="tg-0lax">สุราษฎร์ธานี</td>
+    <td class="tg-0pky">9</td>
+    <td class="tg-0pky">wifi</td>
+    <td class="tg-0pky">WIFI</td>
+    <td class="tg-0pky">string</td>
+    <td class="tg-0pky">50</td>
   </tr>
   <tr>
-    <td class="tg-0lax">10</td>
-    <td class="tg-0lax">postcode</td>
-    <td class="tg-0lax">รหัสไปรษณีย์</td>
-    <td class="tg-0lax">string</td>
-    <td class="tg-0lax">84000</td>
+    <td class="tg-0pky">10</td>
+    <td class="tg-0pky">foldingTablehigh</td>
+    <td class="tg-0pky">โต๊ะพับสูง</td>
+    <td class="tg-0pky">string</td>
+    <td class="tg-0pky">30</td>
   </tr>
   <tr>
-    <td class="tg-0lax">11</td>
-    <td class="tg-0lax">checkin</td>
-    <td class="tg-0lax">วันเข้าพัก</td>
-    <td class="tg-0lax">string</td>
-    <td class="tg-0lax">2023-01-05</td>
+    <td class="tg-0pky">11</td>
+    <td class="tg-0pky">campingSleepingBag</td>
+    <td class="tg-0pky">ถุงนอนตั้งแคมป์</td>
+    <td class="tg-0pky">string</td>
+    <td class="tg-0pky">50</td>
   </tr>
   <tr>
-    <td class="tg-0lax">12</td>
-    <td class="tg-0lax">checkout</td>
-    <td class="tg-0lax">วันออก</td>
-    <td class="tg-0lax">string</td>
-    <td class="tg-0lax">2023-01-06</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">13</td>
-    <td class="tg-0lax">payment</td>
-    <td class="tg-0lax">หลักฐานการโอนเงิน</td>
-    <td class="tg-0lax">string</td>
-    <td class="tg-0lax">เป็นข้อมูลแบบ Base64</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">14</td>
-    <td class="tg-0lax">zone</td>
-    <td class="tg-0lax">จุดจองเต็นท์</td>
-    <td class="tg-0lax">string</td>
-    <td class="tg-0lax">zone2</td>
+    <td class="tg-0pky">12</td>
+    <td class="tg-0pky">foldingChair</td>
+    <td class="tg-0pky">เก้าอี้พับ</td>
+    <td class="tg-0pky">string</td>
+    <td class="tg-0pky">30</td>
   </tr>
 </tbody>
 </table>
