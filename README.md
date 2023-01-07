@@ -4,7 +4,129 @@ Demo: https://youtu.be/buzSrQo4dlg
 เป็น term project เกี่ยวกับระบบจองเต็นท์สำหรับพนักงาน โดยพนักงานเป็นคนกรอกข้อมูลต่างๆของนักท่องเที่ยวที่เดินเข้าไปจองเต็นท์กับพนักงาน
 
 &nbsp;&nbsp;&nbsp;&nbsp;วัตถุประสงค์ของการทำระบบจองเต็นท์สำหรับพนักงาน คือ เพื่อตอบสนองกลุ่มใช้งานของพนักงานในการให้บริการหน้าเคาน์เตอร์หรือหน่วยบริการ เพื่อจัดการให้การจองเป็นระบบมากยิ่งขึ้นและจัดเก็บข้อมูลได้ครบถ้วน อาทิ วันเริ่มจอง, วันสิ้นสุดการจอง, ข้อมูลผู้จอง ชื่อ-สกุล-เบอร์โทร-เลขบัตรประชาชน-ที่อยู่, การเช่าอุปกรณ์ที่มีให้บริการจากทางร้าน, และการบันทึกการชำระเงินและเก็บหลักฐานการชำระเงิน, นอกจากนี้ระบบยังมีความสามารถในการแก้ไข และลบ อีกทั้งยังสามารถส่งออกข้อมูลเป็นไฟล์ Excel ได้อีกด้วย
-# อธิบายเกี่ยวกับ Data Dictionary
+# Data Dictionary
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">#</th>
+    <th class="tg-0pky">Attribute</th>
+    <th class="tg-0lax">Description</th>
+    <th class="tg-0lax">Data Type</th>
+    <th class="tg-0lax">Example</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">id</td>
+    <td class="tg-0lax">id</td>
+    <td class="tg-0lax">int</td>
+    <td class="tg-0lax">1</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">firstname</td>
+    <td class="tg-0lax">ชื่อจริง</td>
+    <td class="tg-0lax">string</td>
+    <td class="tg-0lax">จิตราพร</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">lastname</td>
+    <td class="tg-0lax">นามสกุล</td>
+    <td class="tg-0lax">string</td>
+    <td class="tg-0lax">ทองคง</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">4</td>
+    <td class="tg-0lax">phonenumber</td>
+    <td class="tg-0lax">เบอร์โทรศัพท์</td>
+    <td class="tg-0lax">string</td>
+    <td class="tg-0lax">0857743364</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">5</td>
+    <td class="tg-0lax">idcard</td>
+    <td class="tg-0lax">หมายเลขบัตรประชาชน</td>
+    <td class="tg-0lax">string</td>
+    <td class="tg-0lax">1849903647253</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">6</td>
+    <td class="tg-0lax">address</td>
+    <td class="tg-0lax">ที่อยู่</td>
+    <td class="tg-0lax">string</td>
+    <td class="tg-0lax">11/55</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">7</td>
+    <td class="tg-0lax">subdistrict</td>
+    <td class="tg-0lax">ตำบล</td>
+    <td class="tg-0lax">string</td>
+    <td class="tg-0lax">ตลาด</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">8</td>
+    <td class="tg-0lax">district</td>
+    <td class="tg-0lax">อำเภอ</td>
+    <td class="tg-0lax">string</td>
+    <td class="tg-0lax">เมืองสุราษฎร์ธานี</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">9</td>
+    <td class="tg-0lax">province</td>
+    <td class="tg-0lax">จังหวัด</td>
+    <td class="tg-0lax">string</td>
+    <td class="tg-0lax">สุราษฎร์ธานี</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">10</td>
+    <td class="tg-0lax">postcode</td>
+    <td class="tg-0lax">รหัสไปรษณีย์</td>
+    <td class="tg-0lax">string</td>
+    <td class="tg-0lax">84000</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">11</td>
+    <td class="tg-0lax">checkin</td>
+    <td class="tg-0lax">วันเข้าพัก</td>
+    <td class="tg-0lax">string</td>
+    <td class="tg-0lax">2023-01-05</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">checkout</td>
+    <td class="tg-0lax">วันออก</td>
+    <td class="tg-0lax">string</td>
+    <td class="tg-0lax">2023-01-06</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">13</td>
+    <td class="tg-0lax">payment</td>
+    <td class="tg-0lax">หลักฐานการโอนเงิน</td>
+    <td class="tg-0lax">string</td>
+    <td class="tg-0lax">เป็นข้อมูลแบบ Base64</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">14</td>
+    <td class="tg-0lax">zone</td>
+    <td class="tg-0lax">จุดจองเต็นท์</td>
+    <td class="tg-0lax">string</td>
+    <td class="tg-0lax">zone2</td>
+  </tr>
+</tbody>
+</table>
+
+อธิบายเกี่ยวกับ Data Dictionary
 id คือ Key ที่เก็บค่า id ของนักท่องเที่ยว<br>
 firstname คือ Key ที่เก็บชื่อจริงของนักท่องเที่ยว<br>
 lastname คือ Key ที่เก็บนามสกุลของนักท่องเที่ยว<br>
