@@ -5,15 +5,6 @@ Demo: https://youtu.be/buzSrQo4dlg
 
 &nbsp;&nbsp;&nbsp;&nbsp;วัตถุประสงค์ของการทำระบบจองเต็นท์สำหรับพนักงาน คือ เพื่อตอบสนองกลุ่มใช้งานของพนักงานในการให้บริการหน้าเคาน์เตอร์หรือหน่วยบริการ เพื่อจัดการให้การจองเป็นระบบมากยิ่งขึ้นและจัดเก็บข้อมูลได้ครบถ้วน อาทิ วันเริ่มจอง, วันสิ้นสุดการจอง, ข้อมูลผู้จอง ชื่อ-สกุล-เบอร์โทร-เลขบัตรประชาชน-ที่อยู่, การเช่าอุปกรณ์ที่มีให้บริการจากทางร้าน, และการบันทึกการชำระเงินและเก็บหลักฐานการชำระเงิน, นอกจากนี้ระบบยังมีความสามารถในการแก้ไข และลบ อีกทั้งยังสามารถส่งออกข้อมูลเป็นไฟล์ Excel ได้อีกด้วย
 # Data Dictionary
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -126,7 +117,7 @@ Demo: https://youtu.be/buzSrQo4dlg
 </tbody>
 </table>
 
-อธิบายเกี่ยวกับ Data Dictionary
+อธิบายเกี่ยวกับ Data Dictionary<br>
 id คือ Key ที่เก็บค่า id ของนักท่องเที่ยว<br>
 firstname คือ Key ที่เก็บชื่อจริงของนักท่องเที่ยว<br>
 lastname คือ Key ที่เก็บนามสกุลของนักท่องเที่ยว<br>
